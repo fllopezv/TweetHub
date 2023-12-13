@@ -27,7 +27,7 @@ export default function PostPage() {
         setRepliesLikedByMe(response.data.idsLikedByMe);
       })
   }
-
+//
   useEffect(() => {
     if (!id) {
       return;
